@@ -111,20 +111,7 @@ function CertificateDetail({ cert, onBack }) {
         color: "#1f2430",
       }}
     >
-      <button
-        onClick={onBack}
-        style={{
-          background: "none",
-          border: "none",
-          color: "#33394a",
-          fontSize: 14,
-          cursor: "pointer",
-          marginBottom: 16,
-          padding: 0,
-        }}
-      >
-        ← Back to list
-      </button>
+    
 
       <h1
         style={{
